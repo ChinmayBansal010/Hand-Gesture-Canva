@@ -32,7 +32,7 @@ Follow these steps to set up the project environment.
 ### 1. Clone the Repository
 
 ```bash
-git clone [https://github.com/your-username/your-repo-name.git](https://github.com/your-username/your-repo-name.git)
+git clone [https://github.com/ChinmayBansal010/Hand-Gesture-Canva.git](https://github.com/ChinmayBansal010/Hand-Gesture-Canva.git)
 cd your-repo-name
 ```
 
