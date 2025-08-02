@@ -2,7 +2,7 @@
 
 This project is a Python application that allows users to draw on a live webcam feed using hand gestures and then uses a trained deep learning model to recognize the drawing. The application is built with OpenCV for video processing, MediaPipe for hand tracking, and PyTorch for the image recognition model.
 
-![Demo Screenshot](https://i.imgur.com/your-demo-image.gif) ---
+---
 
 ## ✨ Features
 
