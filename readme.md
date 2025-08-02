@@ -123,8 +123,8 @@ python main.py
 #### Controls:
 
 * **Right Hand Gestures**:
-    * **Draw**: Index + Middle finger up.
-    * **Select Color**: Index finger up to point at the on-screen palette.
+    * **Draw**: Index finger up.
+    * **Select Color**: Index + Middle finger up to point at the on-screen palette.
     * **Erase**: Full open palm.
 * **Left Hand Gestures**:
     * **Adjust Brush Size**: Vary distance between thumb and index finger.
