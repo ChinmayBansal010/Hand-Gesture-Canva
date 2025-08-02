@@ -20,7 +20,7 @@ This project is a Python application that allows users to draw on a live webcam 
 ## 🛠️ Prerequisites
 
 Before you begin, ensure you have the following installed:
-* Python 3.8 or higher
+* Python 3.12
 * A webcam
 
 ---
@@ -32,7 +32,7 @@ Follow these steps to set up the project environment.
 ### 1. Clone the Repository
 
 ```bash
-git clone  [https://github.com/ChinmayBansal010/Hand-Gesture-Canva.git](https://github.com/ChinmayBansal010/Hand-Gesture-Canva)
+git clone https://github.com/ChinmayBansal010/Hand-Gesture-Canva.git
 cd your-repo-name
 ```
 
