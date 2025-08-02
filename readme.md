@@ -52,21 +52,7 @@ source venv/bin/activate
 
 ### 3. Install Required Libraries
 
-Create a file named `requirements.txt` and add the following libraries to it:
-
-```txt
-torch
-torchvision
-opencv-python
-mediapipe
-numpy
-scikit-learn
-Pillow
-tqdm
-tensorboard
-```
-
-Then, install them using pip:
+Install them using pip:
 
 ```bash
 pip install -r requirements.txt
