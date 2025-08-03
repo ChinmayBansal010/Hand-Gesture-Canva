@@ -2,7 +2,7 @@
 
 This project is a Python application that allows users to draw on a live webcam feed using hand gestures and then uses a trained deep learning model to recognize the drawing. The application is built with OpenCV for video processing, MediaPipe for hand tracking, and PyTorch for the image recognition model.
 
-![Demo Screenshot](https://i.imgur.com/your-demo-image.gif) ---
+---
 
 ## ✨ Features
 
@@ -20,7 +20,7 @@ This project is a Python application that allows users to draw on a live webcam 
 ## 🛠️ Prerequisites
 
 Before you begin, ensure you have the following installed:
-* Python 3.8 or higher
+* Python 3.12
 * A webcam
 
 ---
@@ -32,7 +32,7 @@ Follow these steps to set up the project environment.
 ### 1. Clone the Repository
 
 ```bash
-git clone [https://github.com/your-username/your-repo-name.git](https://github.com/your-username/your-repo-name.git)
+git clone https://github.com/ChinmayBansal010/Hand-Gesture-Canva.git
 cd your-repo-name
 ```
 
@@ -52,21 +52,7 @@ source venv/bin/activate
 
 ### 3. Install Required Libraries
 
-Create a file named `requirements.txt` and add the following libraries to it:
-
-```txt
-torch
-torchvision
-opencv-python
-mediapipe
-numpy
-scikit-learn
-Pillow
-tqdm
-tensorboard
-```
-
-Then, install them using pip:
+Install them using pip:
 
 ```bash
 pip install -r requirements.txt
@@ -137,8 +123,8 @@ python main.py
 #### Controls:
 
 * **Right Hand Gestures**:
-    * **Draw**: Index + Middle finger up.
-    * **Select Color**: Index finger up to point at the on-screen palette.
+    * **Draw**: Index finger up.
+    * **Select Color**: Index + Middle finger up to point at the on-screen palette.
     * **Erase**: Full open palm.
 * **Left Hand Gestures**:
     * **Adjust Brush Size**: Vary distance between thumb and index finger.
