@@ -8,10 +8,10 @@ This project is a Python application that allows users to draw on a live webcam 
 
 * **Gesture-Based Drawing**: Draw on the screen using your index and middle fingers.
 * **Dynamic Controls**:
-    * **Color Selection**: Point with your index finger to select colors from an on-screen palette.
-    * **Eraser**: Use a full open palm to erase parts of the drawing.
-    * **Dynamic Brush Size**: Adjust brush thickness by changing the distance between your thumb and index finger on your left hand.
-    * **Clear Canvas**: Show an open palm on your left hand to clear the screen instantly.
+  * **Color Selection**: Point with your index finger to select colors from an on-screen palette.
+  * **Eraser**: Use a full open palm to erase parts of the drawing.
+  * **Dynamic Brush Size**: Adjust brush thickness by changing the distance between your thumb and index finger on your left hand.
+  * **Clear Canvas**: Show an open palm on your left hand to clear the screen instantly.
 * **AI-Powered Recognition**: Press a key to have a trained ResNet/Vision Transformer model predict what you've drawn.
 * **Modular Training Script**: A separate script (`train.py`) is provided to train the recognition model on your own dataset.
 
@@ -20,6 +20,7 @@ This project is a Python application that allows users to draw on a live webcam 
 ## 🛠️ Prerequisites
 
 Before you begin, ensure you have the following installed:
+
 * Python 3.12
 * A webcam
 
@@ -62,7 +63,7 @@ pip install -r requirements.txt
 
 The model is trained on a dataset of sketch images. Your data should be organized into subdirectories, where each subdirectory name corresponds to a class label.
 
-```
+```text
 data/
 ├── airplane/
 │   ├── image1.png
@@ -76,7 +77,8 @@ data/
 After organizing your data, you need a `filelist.txt` that contains the relative paths to all your images. For example:
 
 **`data/filelist.txt`**:
-```
+
+```text
 airplane/image1.png
 airplane/image2.png
 apple/image3.png
@@ -120,20 +122,20 @@ Once the model is trained and `class_names.txt` is in place, you can start the m
 python main.py
 ```
 
-#### Controls:
+#### Controls
 
 * **Right Hand Gestures**:
-    * **Draw**: Index finger up.
-    * **Select Color**: Index + Middle finger up to point at the on-screen palette.
-    * **Erase**: Full open palm.
+  * **Draw**: Index finger up.
+  * **Select Color**: Index + Middle finger up to point at the on-screen palette.
+  * **Erase**: Full open palm.
 * **Left Hand Gestures**:
-    * **Adjust Brush Size**: Vary distance between thumb and index finger.
-    * **Clear Canvas**: Full open palm.
+  * **Adjust Brush Size**: Vary distance between thumb and index finger.
+  * **Clear Canvas**: Full open palm.
 * **Keyboard Hotkeys**:
-    * **`P`**: Predict the current drawing on the canvas.
-    * **`C`**: Clear the canvas.
-    * **`S`**: Save the current drawing as `hand_drawing_output.png`.
-    * **`Q`**: Quit the application.
+  * **`P`**: Predict the current drawing on the canvas.
+  * **`C`**: Clear the canvas.
+  * **`S`**: Save the current drawing as `hand_drawing_output.png`.
+  * **`Q`**: Quit the application.
 
 ---
 
